@@ -27,6 +27,12 @@
 		39ABD72412F0B61800D1054C /* objc-weak.mm in Sources */ = {isa = PBXBuildFile; fileRef = 39ABD72012F0B61800D1054C /* objc-weak.mm */; };
 		3F1BA99F1E14DA4E007C535F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1BA99E1E14DA4E007C535F /* main.m */; };
 		3F5AEB851E14F2A1000CAFA1 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5AEB841E14F2A1000CAFA1 /* Person.m */; };
+		6B4DFF8E1FE6876D0025ADFD /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF821FE6876C0025ADFD /* Dog.m */; };
+		6B4DFF8F1FE6876D0025ADFD /* Person+move.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF831FE6876C0025ADFD /* Person+move.m */; };
+		6B4DFF901FE6876D0025ADFD /* Person+addtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF871FE6876C0025ADFD /* Person+addtional.m */; };
+		6B4DFF911FE6876D0025ADFD /* messageFowardingDynamicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF881FE6876C0025ADFD /* messageFowardingDynamicMethod.m */; };
+		6B4DFF921FE6876D0025ADFD /* Block1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF8B1FE6876D0025ADFD /* Block1.m */; };
+		6B4DFF931FE6876D0025ADFD /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF8C1FE6876D0025ADFD /* Man.m */; };
 		830F2A740D737FB800392440 /* objc-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A690D737FB800392440 /* objc-msg-arm.s */; };
 		830F2A750D737FB900392440 /* objc-msg-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A6A0D737FB800392440 /* objc-msg-i386.s */; };
 		830F2A7D0D737FBB00392440 /* objc-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A720D737FB800392440 /* objc-msg-x86_64.s */; };
@@ -163,6 +169,18 @@
 		3F1BA99E1E14DA4E007C535F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F5AEB831E14F2A1000CAFA1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		3F5AEB841E14F2A1000CAFA1 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6B4DFF821FE6876C0025ADFD /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		6B4DFF831FE6876C0025ADFD /* Person+move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+move.m"; sourceTree = "<group>"; };
+		6B4DFF841FE6876C0025ADFD /* Person+addtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+addtional.h"; sourceTree = "<group>"; };
+		6B4DFF851FE6876C0025ADFD /* Block1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block1.h; sourceTree = "<group>"; };
+		6B4DFF861FE6876C0025ADFD /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		6B4DFF871FE6876C0025ADFD /* Person+addtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+addtional.m"; sourceTree = "<group>"; };
+		6B4DFF881FE6876C0025ADFD /* messageFowardingDynamicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = messageFowardingDynamicMethod.m; sourceTree = "<group>"; };
+		6B4DFF891FE6876C0025ADFD /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		6B4DFF8A1FE6876D0025ADFD /* messageFowardingDynamicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = messageFowardingDynamicMethod.h; sourceTree = "<group>"; };
+		6B4DFF8B1FE6876D0025ADFD /* Block1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block1.m; sourceTree = "<group>"; };
+		6B4DFF8C1FE6876D0025ADFD /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		6B4DFF8D1FE6876D0025ADFD /* Person+move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+move.h"; sourceTree = "<group>"; };
 		830F2A690D737FB800392440 /* objc-msg-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-arm.s"; path = "runtime/Messengers.subproj/objc-msg-arm.s"; sourceTree = "<group>"; };
 		830F2A6A0D737FB800392440 /* objc-msg-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-i386.s"; path = "runtime/Messengers.subproj/objc-msg-i386.s"; sourceTree = "<group>"; };
 		830F2A720D737FB800392440 /* objc-msg-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-x86_64.s"; path = "runtime/Messengers.subproj/objc-msg-x86_64.s"; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
@@ -433,6 +451,18 @@
 			isa = PBXGroup;
 			children = (
 				3F1BA99E1E14DA4E007C535F /* main.m */,
+				6B4DFF851FE6876C0025ADFD /* Block1.h */,
+				6B4DFF8B1FE6876D0025ADFD /* Block1.m */,
+				6B4DFF891FE6876C0025ADFD /* Dog.h */,
+				6B4DFF821FE6876C0025ADFD /* Dog.m */,
+				6B4DFF861FE6876C0025ADFD /* Man.h */,
+				6B4DFF8C1FE6876D0025ADFD /* Man.m */,
+				6B4DFF8A1FE6876D0025ADFD /* messageFowardingDynamicMethod.h */,
+				6B4DFF881FE6876C0025ADFD /* messageFowardingDynamicMethod.m */,
+				6B4DFF841FE6876C0025ADFD /* Person+addtional.h */,
+				6B4DFF871FE6876C0025ADFD /* Person+addtional.m */,
+				6B4DFF8D1FE6876D0025ADFD /* Person+move.h */,
+				6B4DFF831FE6876C0025ADFD /* Person+move.m */,
 				3F5AEB831E14F2A1000CAFA1 /* Person.h */,
 				3F5AEB841E14F2A1000CAFA1 /* Person.m */,
 			);
@@ -679,7 +709,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B4DFF8E1FE6876D0025ADFD /* Dog.m in Sources */,
+				6B4DFF921FE6876D0025ADFD /* Block1.m in Sources */,
+				6B4DFF8F1FE6876D0025ADFD /* Person+move.m in Sources */,
 				3F5AEB851E14F2A1000CAFA1 /* Person.m in Sources */,
+				6B4DFF931FE6876D0025ADFD /* Man.m in Sources */,
+				6B4DFF901FE6876D0025ADFD /* Person+addtional.m in Sources */,
+				6B4DFF911FE6876D0025ADFD /* messageFowardingDynamicMethod.m in Sources */,
 				3F1BA99F1E14DA4E007C535F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
