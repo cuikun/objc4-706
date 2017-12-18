@@ -10,6 +10,7 @@
 @interface Block1 : NSObject
 {
     int _age;
+    NSString * _name;
 }
 @property (nonatomic,copy) void(^block)();
 

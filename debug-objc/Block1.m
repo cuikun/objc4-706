@@ -12,13 +12,17 @@
 -(instancetype)init
 {
     if (self = [super init]) {
-        int * agePointer = &_age;
+        __weak typeof(self) weakSelf = self;
         _age = 1;
+        _name = @"cui";
         self.block = ^{
-            NSLog(@"%d",*agePointer);
+            __strong typeof(self) strongSelf = weakSelf;
+            NSLog(@"%d",strongSelf->_age);
+            NSLog(@"%@",strongSelf->_name);
         };
         self.block();
         _age = 2;
+        _name = @"kun";
         self.block();
         
     }

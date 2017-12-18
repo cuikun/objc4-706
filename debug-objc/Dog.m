@@ -13,11 +13,17 @@
 
 -(void)setName:(NSString *)name
 {
+//    if (_name != name) {
+//        _name = name;
+//    }
 //    _name = name;
 }
 -(NSString *)name
 {
     return @"";//_name;
+    NSTimer * timer = [NSTimer scheduledTimerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        [timer invalidate];
+    }];
 }
 
 @end

@@ -33,6 +33,7 @@
 		6B4DFF911FE6876D0025ADFD /* messageFowardingDynamicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF881FE6876C0025ADFD /* messageFowardingDynamicMethod.m */; };
 		6B4DFF921FE6876D0025ADFD /* Block1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF8B1FE6876D0025ADFD /* Block1.m */; };
 		6B4DFF931FE6876D0025ADFD /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF8C1FE6876D0025ADFD /* Man.m */; };
+		6B4DFF961FE6B27F0025ADFD /* userdefaultTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B4DFF951FE6B27F0025ADFD /* userdefaultTest.m */; };
 		830F2A740D737FB800392440 /* objc-msg-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A690D737FB800392440 /* objc-msg-arm.s */; };
 		830F2A750D737FB900392440 /* objc-msg-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A6A0D737FB800392440 /* objc-msg-i386.s */; };
 		830F2A7D0D737FBB00392440 /* objc-msg-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = 830F2A720D737FB800392440 /* objc-msg-x86_64.s */; };
@@ -181,6 +182,8 @@
 		6B4DFF8B1FE6876D0025ADFD /* Block1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block1.m; sourceTree = "<group>"; };
 		6B4DFF8C1FE6876D0025ADFD /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
 		6B4DFF8D1FE6876D0025ADFD /* Person+move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+move.h"; sourceTree = "<group>"; };
+		6B4DFF941FE6B27F0025ADFD /* userdefaultTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = userdefaultTest.h; sourceTree = "<group>"; };
+		6B4DFF951FE6B27F0025ADFD /* userdefaultTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = userdefaultTest.m; sourceTree = "<group>"; };
 		830F2A690D737FB800392440 /* objc-msg-arm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-arm.s"; path = "runtime/Messengers.subproj/objc-msg-arm.s"; sourceTree = "<group>"; };
 		830F2A6A0D737FB800392440 /* objc-msg-i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-i386.s"; path = "runtime/Messengers.subproj/objc-msg-i386.s"; sourceTree = "<group>"; };
 		830F2A720D737FB800392440 /* objc-msg-x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "objc-msg-x86_64.s"; path = "runtime/Messengers.subproj/objc-msg-x86_64.s"; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
@@ -451,6 +454,8 @@
 			isa = PBXGroup;
 			children = (
 				3F1BA99E1E14DA4E007C535F /* main.m */,
+				6B4DFF941FE6B27F0025ADFD /* userdefaultTest.h */,
+				6B4DFF951FE6B27F0025ADFD /* userdefaultTest.m */,
 				6B4DFF851FE6876C0025ADFD /* Block1.h */,
 				6B4DFF8B1FE6876D0025ADFD /* Block1.m */,
 				6B4DFF891FE6876C0025ADFD /* Dog.h */,
@@ -717,6 +722,7 @@
 				6B4DFF901FE6876D0025ADFD /* Person+addtional.m in Sources */,
 				6B4DFF911FE6876D0025ADFD /* messageFowardingDynamicMethod.m in Sources */,
 				3F1BA99F1E14DA4E007C535F /* main.m in Sources */,
+				6B4DFF961FE6B27F0025ADFD /* userdefaultTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

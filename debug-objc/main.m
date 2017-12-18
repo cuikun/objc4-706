@@ -11,7 +11,7 @@
 #import "Person.h"
 #import "Block1.h"
 #import "messageFowardingDynamicMethod.h"
-
+#import "userdefaultTest.h"
 
 
 
@@ -130,7 +130,7 @@ void personInstanceTest()
 
     [person performSelector:@selector(integerValue)];
     
-//    [messageFowardingDynamicMethod performSelector:@selector(integerValue)];
+    [messageFowardingDynamicMethod performSelector:@selector(integerValue)];
     
 }
 
@@ -161,7 +161,9 @@ void blocktest()
 void synthesizedynamicTest()
 {
     Dog *dog1 = [[Dog alloc]init];
-//    dog1.name = @"333";
+    dog1.name = @"333";
+    NSLog(@"dogName:%@",dog1.name);
+    
     printPersonIvars([Dog class]);
     printPersonPropertys([Dog class]);
     
@@ -209,9 +211,12 @@ void blockTest1()
     };
     block_string = @"bbb";
     NSLog(@"\\n %@",block_append()); //结果: bbbccc
-
 }
 
+void userdefaulttest()
+{
+    userdefaultTest * test = [[userdefaultTest alloc]init];
+}
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -220,10 +225,11 @@ int main(int argc, const char * argv[]) {
 //        printPersonMethods();
 //        printPersonPropertys();
 //        printPersonProtocolList();
-        personInstanceTest();
+//        personInstanceTest();
 //        logtest();
-//        synthesizedynamicTest();
-//        blockTest1();
+        synthesizedynamicTest();
+//        blockTest();
+//        userdefaulttest();
     }
     return 0;
 }

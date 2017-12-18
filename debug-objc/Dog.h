@@ -8,9 +8,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Dog : NSObject
-{
+//{
 //    NSString * _name;
-}
+//}
 @property (nonatomic,copy) NSString * name;
 
 @end
